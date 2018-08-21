@@ -33,12 +33,6 @@
 
    
 	
-    <issueManagement>
-        <system>GitHub
-	    </system>
-        <url>https://github.com/devopstrainingblr/Maven-Java-Project/issues</url>
-    </issueManagement>
-	
 	
   <dependencies>
     <dependency>
@@ -115,7 +109,7 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-                <sonar.host.url>http://localhost:9000/</sonar.host.url>
+                <sonar.host.url>http://ec2-13-233-6-154.ap-south-1.compute.amazonaws.com:9000/</sonar.host.url>
      <sonar-maven-plugin.version>3.3.0.603</sonar-maven-plugin.version>
             </properties>
             <build>
