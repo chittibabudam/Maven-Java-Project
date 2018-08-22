@@ -10,16 +10,17 @@ node {
           checkout scm
        }
 
-       stage('Compiling'){
-
-          sh 'mvn clean install'
-       }
-	   
-      stage('Sonar') {
+	    stage('Sonar') {
                     //add stage sonar
                     sh 'mvn sonar:sonar'
                 }
-	    
+	
+       stage('Compiling'){
+
+          sh 'mvn clean deploy'
+       }
+	   
+          
 	stage('Checkstyle') {
                     sh 'mvn checkstyle:checkstyle'
                 }
@@ -27,6 +28,10 @@ node {
                stage('PMD') {
                     sh 'mvn pmd:check'
                 }
+	    stage('Tomcat')
+	    {
+		    // checking purpose
+	    }
       /* stage('mail'){
 
          mail body: 'project build successful',
