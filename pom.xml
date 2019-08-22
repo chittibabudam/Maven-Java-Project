@@ -30,10 +30,7 @@
      	<sonar.jacoco.itReportPath>${project.basedir}/../target/jacoco-it.exec</sonar.jacoco.itReportPath>
         <sonar.groovy.binaries>target/classes</sonar.groovy.binaries>
   </properties>
-
-   
-	
-	
+<!-- test -->	
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
