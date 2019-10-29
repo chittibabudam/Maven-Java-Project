@@ -6,13 +6,11 @@
   <groupId>com.mt</groupId>
   <artifactId>maven-java-project</artifactId>
   <packaging>jar</packaging>
-  <version>1.0</version>
+  <version>1.0-SNAPSHOT</version>
   <name>Maven Web Project</name>
   <description>Maven java Project for Java</description>
 
- <organization>
-    
-
+ <organization>  
 	 <name>chittibabu</name>
      <url>http://google.com/</url>
  </organization>
@@ -87,22 +85,22 @@
 		</dependency>
   </dependencies>
 
-  <!--
+
 
 <distributionManagement>
     <repository>
         <id>nexus</id>
         <name>releases</name>
-        <url>http://ec2-13-232-188-117.ap-south-1.compute.amazonaws.com:8081/repository/Ichitti-releases/</url>
+	<url>http://ec2-13-232-42-175.ap-south-1.compute.amazonaws.com:8081/repository/chitti_releases/</url>
     </repository>
     <snapshotRepository>
         <id>nexus</id>
         <name>snapshots</name>
-        <url>http://ec2-13-232-188-117.ap-south-1.compute.amazonaws.com:8081/repository/Ichitti-snapshot/</url>
+        <url>http://ec2-13-232-42-175.ap-south-1.compute.amazonaws.com:8081/repository/chitti_snapshot/</url>
     </snapshotRepository>
 </distributionManagement>
 
--->	
+	
 
    <profiles>
         <profile>
