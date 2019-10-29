@@ -11,7 +11,9 @@
   <description>Maven java Project for Java</description>
 
  <organization>
-     <name>chittibabu</name>
+    
+
+	 <name>chittibabu</name>
      <url>http://google.com/</url>
  </organization>
 
