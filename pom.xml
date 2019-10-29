@@ -6,7 +6,7 @@
   <groupId>com.mt</groupId>
   <artifactId>maven-java-project</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <name>Maven Web Project</name>
   <description>Maven java Project for Java</description>
 
@@ -86,7 +86,9 @@
 			<version>${spring.version}</version>
 		</dependency>
   </dependencies>
-	
+
+  <!--
+
 <distributionManagement>
     <repository>
         <id>nexus</id>
@@ -100,7 +102,7 @@
     </snapshotRepository>
 </distributionManagement>
 
-	
+-->	
 
    <profiles>
         <profile>
