@@ -89,42 +89,9 @@
   </dependencies>
 
 
-<!-- 
-<distributionManagement>
-    <repository>
-        <id>nexus</id>
-        <name>releases</name>
-	<url>http://ec2-13-232-42-175.ap-south-1.compute.amazonaws.com:8081/repository/chitti_releases/</url>
-    </repository>
-    <snapshotRepository>
-        <id>nexus</id>
-        <name>snapshots</name>
-        <url>http://ec2-13-232-42-175.ap-south-1.compute.amazonaws.com:8081/repository/chitti_snapshot/</url>
-    </snapshotRepository>
-</distributionManagement>
--->
-	
 
    <profiles>
-       <!-- <profile>
-            <id>sonar</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <properties>
-                <sonar.host.url>http:localhost:9000/</sonar.host.url>
-     <sonar-maven-plugin.version>3.3.0.603</sonar-maven-plugin.version>
-            </properties>
-            <build>
-              <plugins>
-                <plugin>
-                    <groupId>org.sonarsource.scanner.maven</groupId>
-                    <artifactId>sonar-maven-plugin</artifactId>
-                    <version>${sonar-maven-plugin.version}</version>
-                </plugin>
-              </plugins>
-            </build>
-        </profile> -->
+       
   </profiles>
 
  
