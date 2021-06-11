@@ -7,7 +7,7 @@
   <artifactId>maven-java-project</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>Maven Web Project</name>
+  <name>sonartwo</name>
   <description>Maven java Project for Java</description>
 
  <organization>  
@@ -22,8 +22,11 @@
 	 	<sonar.host.url>http:localhost:9000/</sonar.host.url>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-
-     	<!-- Sonar -->
+       
+	<maven.compiler.source>1.6</maven.compiler.source>
+        <maven.compiler.target>1.6</maven.compiler.target>
+     	
+	<!-- Sonar -->
     	<!-- The destination file for the code coverage report has to be set to the same value
          in the parent pom and in each module pom. Then JaCoCo will add up information in
          the same report, so that, it will give the cross-module code coverage.mmm -->
