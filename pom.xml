@@ -30,6 +30,10 @@
 	 
 	  
 	  <sonar.host.url>https://sonarcloud.io/</sonar.host.url>
+	  
+  <sonar.organization>chittibabudam</sonar.organization>
+
+
 	
 	  
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
