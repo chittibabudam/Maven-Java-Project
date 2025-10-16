@@ -14,7 +14,15 @@
 	 <name>chittibabu</name>
      <url>http://google.com/</url>
  </organization>
-
+                                  <build>
+    <plugins>
+        <plugin>
+            <groupId>org.sonarsource.scanner.maven</groupId>
+            <artifactId>sonar-maven-plugin</artifactId>
+            <version>4.0.0.4121</version> <!-- Explicitly define the version -->
+        </plugin>
+    </plugins>
+                                    </build>
   <properties>
 	    <spring.version>4.1.4.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
